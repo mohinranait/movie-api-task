@@ -1,0 +1,23 @@
+p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.movieGenres{
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    display: flex;
+    gap: 5px;
+}
+.movieName{
+    font-weight: 700;
+    color: white;
+}
+.movieNetwordName{
+    font-weight: 700;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+}
+.moviCard img{
+    object-fit: cover;
+}

@@ -1,0 +1,48 @@
+header{
+    background-color: #090b13;
+}
+.headWrap{
+    display: flex ;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+header .logo{
+    
+}
+header .logo .logoCap{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+header .logo .logoCap .logoTab{
+    color: rgb(2, 82, 161);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.navLinks{
+    display: flex;
+}
+.navLinks li a{
+    padding: 10px 7px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 430px) {
+    
+}

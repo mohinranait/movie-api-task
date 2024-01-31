@@ -1,0 +1,12 @@
+.formWrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.error{
+    padding: 10px 15px;
+    background-color: rgb(189, 5, 5);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

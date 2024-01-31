@@ -1,0 +1,37 @@
+.movieWrap{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .movieWrap{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .movieWrap{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .movieWrap{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 430px) {
+    
+}

@@ -1,0 +1,73 @@
+
+.detailsMovieWrap{
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+/* .detailsMovieWrap .imgCard{
+    width: 40%;
+} */
+.detailsMovieWrap .imgCard img{
+    width: 100%;
+}
+
+.dName{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bg-black{
+    background-color: rgb(49, 66, 99);
+}
+.schedule{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.contentWrap{
+    display: flex;
+    align-items: center;
+}
+.contentDescripton{
+    color: rgb(121, 121, 121);
+}
+.rating,.starring,.officialWeb{
+    color: white;
+
+}
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+   
+}
+@media screen and (max-width: 992px) {
+    .detailsMovieWrap{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    .contentDiv{
+        padding: 20px 0 20px 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 430px) {
+    
+}
