@@ -24,12 +24,14 @@
 @media screen and (max-width: 768px) {
     .movieWrap{
         display: grid;
-        grid-template-columns: repeat(2, 47%);
+        grid-template-columns: repeat(3, auto);
         gap: 10px;
     }
 }
 @media screen and (max-width: 600px) {
-   
+    .movieWrap{
+        grid-template-columns: repeat(2, auto);
+    }
 }
 
 @media screen and (max-width: 430px) {
